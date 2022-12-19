@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    width: 60rem
+}
+.carré{
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+.rond{
+    border: 1px solid black;
+    width: 10rem;
+    height:10rem;
+    border-radius: 100%;
+    margin: 1rem;
+}
+.losange{
+    border: 1px solid black;
+    width: 8rem;
+    height: 8rem;
+    transform: rotate(45deg);
+    margin: 1rem;
+}
+button{
+    width: 10rem;
+}
+
+
+.plein {
+    background-color: navajowhite;
+}
+
+.vide {
+
+}
